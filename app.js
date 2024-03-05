@@ -32,6 +32,7 @@ function btnDesencriptar() {
     const textoEncriptado = desencriptar(textArea.value);
     mensaje.value = textoEncriptado;
     textArea.value = "";
+    mensaje.style.color = "white"
     const nuevaImagen = document.createElement("img");
     nuevaImagen.src = "./img/candado-abierto.jpeg";
 

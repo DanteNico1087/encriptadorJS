@@ -7,7 +7,7 @@ function btnEncriptar() {
     textArea.value = "";
     mensaje.style.color = "white"
     const encriptarImagen = document.createElement("img");
-    encriptarImagen.src = "./img/encriptado.jpg";
+    encriptarImagen.src = "img/candado-encriptador-cerrado.jpg";
 
     const imagenEncriptada = document.querySelector('.mensaje');
     imagenEncriptada.style.backgroundImage = `url(${encriptarImagen.src})`;
@@ -34,7 +34,7 @@ function btnDesencriptar() {
     textArea.value = "";
     mensaje.style.color = "white"
     const nuevaImagen = document.createElement("img");
-    nuevaImagen.src = "./img/candado-abierto.jpeg";
+    nuevaImagen.src = "img/candado-encriptador-abierto.jpg";
 
     const cambioDeImagen = document.querySelector('.mensaje');
     cambioDeImagen.style.backgroundImage = `url(${nuevaImagen.src})`;
